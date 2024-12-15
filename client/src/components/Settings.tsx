@@ -7,8 +7,6 @@ import music_off from "../assets/images/settings/music-off.svg";
 import music_on from "../assets/images/settings/music-on.svg";
 import sound_off from "../assets/images/settings/sound-off.svg";
 import sound_on from "../assets/images/settings/sound-on.svg";
-import volume_off from "../assets/images/settings/volume-off.svg";
-import volume_on from "../assets/images/settings/volume-on.svg";
 
 const Settings: React.FC = () => {
   const [soundLevel, setSoundLevel] = useState(5);

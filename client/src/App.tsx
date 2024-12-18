@@ -33,6 +33,8 @@ import { SDK } from "@dojoengine/sdk";
 import Settings from "./components/Settings";
 
 const App = ({ sdk }: { sdk: SDK<StarkludoSchemaType> }) => {
+  console.log("SDK initialized:", sdk);
+
   const [activeWindow, setActiveWindow] = useState("");
   const [showMobileResponsiveWarning, setShowMobileResponsiveWarning] =
     useState(false);
